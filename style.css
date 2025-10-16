@@ -62,6 +62,7 @@
      margin-bottom: 40px;
      margin-top: 40px;
      font-size: 1.2em;
+     display: flex;
  }
 
  div#top h1 {
