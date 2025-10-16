@@ -54,8 +54,6 @@
      transform: translateY(-1px);
  }
 
-
-
  #logo {
      width: 300px;
  }
@@ -74,53 +72,6 @@
  div#top p {
      max-width: 650px;
      margin: auto;
- }
-
-
- div#slide {
-     width: 100%;
-     max-width: 800px;
-     display: flex;
-     margin: auto;
-     align-content: stretch;
-     align-items: center;
-     column-gap: 30px;
- }
-
- div#slide #slide_desc {
-     width: 100%;
-     font-size: 1.2em;
-     display: grid;
-     align-items: space-between;
-     gap: 40px;
-     grid-template-areas:
-         "title title"
-         "par par"
-         "prev next";
-
- }
-
- #slide_desc h4 {
-     grid-area: title;
-
- }
-
- #slide_desc p {
-     width: 70%;
-     grid-area: par;
-     justify-self: center;
- }
-
- #slide_desc button.nav_prev {
-     grid-area: prev;
- }
-
- #slide_desc button.nav_next {
-     grid-area: next;
- }
-
- #slide_pic {
-     width: 420px;
  }
 
 
