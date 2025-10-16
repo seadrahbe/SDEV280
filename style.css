@@ -1,4 +1,8 @@
- body {
+* {
+ margin: 0 0;
+}
+
+body {
      font-family: Arial, Helvetica, sans-serif;
      font-size: 12px;
 
@@ -61,18 +65,20 @@
  div#top {
      margin-bottom: 40px;
      margin-top: 40px;
-     font-size: 1.2em;
+     font-size: 0.7em;
      display: flex;
+     flex-direction: row;
+     justify-content: center;
  }
 
  div#top h1 {
-     font-size: 35px;
+     font-size: 25px;
+     margin-bottom: 5px;
  }
 
 
  div#top p {
      max-width: 650px;
-     margin: auto;
  }
 
 
